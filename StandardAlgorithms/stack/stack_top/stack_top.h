@@ -1,7 +1,8 @@
 
 #ifndef STACK_TOP_H_INCLUDED
 #define STACK_TOP_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -11,6 +12,7 @@
 */
 value_type
 stack_top(const Stack* s);
+__END_DECLS
 
 #endif /* STACK_TOP_H_INCLUDED */
 

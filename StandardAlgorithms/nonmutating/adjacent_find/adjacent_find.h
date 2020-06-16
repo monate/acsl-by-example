@@ -1,7 +1,8 @@
 
 #ifndef ADJACENT_FIND_H_INCLUDED
 #define ADJACENT_FIND_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "HasEqualNeighbors.acsl"
 
 /*@
@@ -26,6 +27,7 @@
 */
 size_type
 adjacent_find(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* ADJACENT_FIND_H_INCLUDED */
 

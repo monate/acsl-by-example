@@ -1,7 +1,8 @@
 
 #ifndef STACK_PUSH_H_INCLUDED
 #define STACK_PUSH_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -32,6 +33,7 @@
 */
 void
 stack_push(Stack* s, value_type v);
+__END_DECLS
 
 #endif /* STACK_PUSH_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef MAX_ELEMENT_H_INCLUDED
 #define MAX_ELEMENT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 
 /*@
@@ -26,6 +27,7 @@
 */
 size_type
 max_element(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* MAX_ELEMENT_H_INCLUDED */
 

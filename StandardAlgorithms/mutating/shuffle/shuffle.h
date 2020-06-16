@@ -1,7 +1,8 @@
 
 #ifndef SHUFFLE_H_INCLUDED
 #define SHUFFLE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "MultisetUnchanged.acsl"
 
 /*@
@@ -14,6 +15,7 @@
 */
 void
 shuffle(value_type* a, size_type n, unsigned short* seed);
+__END_DECLS
 
 #endif /* SHUFFLE_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef FIND_H_INCLUDED
 #define FIND_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 
 /*@
@@ -26,6 +27,7 @@
 */
 size_type
 find(const value_type* a, size_type n, value_type v);
+__END_DECLS
 
 #endif /* FIND_H_INCLUDED */
 

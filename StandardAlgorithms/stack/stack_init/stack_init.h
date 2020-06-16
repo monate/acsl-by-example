@@ -1,7 +1,8 @@
 
 #ifndef STACK_INIT_H_INCLUDED
 #define STACK_INIT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -18,6 +19,7 @@
 */
 void
 stack_init(Stack* s, value_type* storage, size_type capacity);
+__END_DECLS
 
 #endif /* STACK_INIT_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef MAX_ELEMENT2_H_INCLUDED
 #define MAX_ELEMENT2_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "ArrayExtrema.acsl"
 
 /*@
@@ -26,5 +27,6 @@
 */
 size_type
 max_element2(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* MAX_ELEMENT2_H_INCLUDED */

@@ -1,7 +1,8 @@
 
 #ifndef MAKE_PAIR_H_INCLUDED
 #define MAKE_PAIR_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "SizeTypePairTrivial.acsl"
 
 /*@
@@ -20,6 +21,7 @@ make_pair(size_type first, size_type second)
 
   return pair;
 }
+__END_DECLS
 
 #endif /* MAKE_PAIR_H_INCLUDED */
 

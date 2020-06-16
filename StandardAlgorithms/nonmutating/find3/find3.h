@@ -1,7 +1,8 @@
 
 #ifndef FIND3_H_INCLUDED
 #define FIND3_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Find.acsl"
 
 
@@ -13,6 +14,7 @@
 */
 size_type
 find3(const value_type* a, size_type n, value_type v);
+__END_DECLS
 
 #endif /* FIND3_H_INCLUDED */
 

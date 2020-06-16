@@ -1,7 +1,8 @@
 
 #ifndef INNER_PRODUCT_H_INCLUDED
 #define INNER_PRODUCT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "InnerProduct.acsl"
 #include "Unchanged.acsl"
 
@@ -18,6 +19,7 @@
 value_type
 inner_product(const value_type* a, const value_type* b, size_type n,
               value_type init);
+__END_DECLS
 
 #endif /* INNER_PRODUCT_H_INCLUDED */
 

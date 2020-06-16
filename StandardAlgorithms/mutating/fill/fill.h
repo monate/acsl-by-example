@@ -1,7 +1,8 @@
 
 #ifndef FILL_H_INCLUDED
 #define FILL_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "AllSomeNot.acsl"
 
 /*@
@@ -11,6 +12,7 @@
 */
 void
 fill(value_type* a, size_type n, value_type val);
+__END_DECLS
 
 #endif /* FILL_H_INCLUDED */
 

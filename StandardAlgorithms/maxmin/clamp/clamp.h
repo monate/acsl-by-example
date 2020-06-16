@@ -1,7 +1,8 @@
 
 #ifndef CLAMP_H_INCLUDED
 #define CLAMP_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 
 /*@
@@ -29,6 +30,7 @@
 */
 value_type
 clamp(value_type v, value_type lower, value_type upper);
+__END_DECLS
 
 #endif /* CLAMP_H_INCLUDED */
 

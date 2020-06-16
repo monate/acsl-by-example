@@ -1,6 +1,8 @@
 
 #ifndef SORT_HEAP_H_INCLUDED
 #define SORT_HEAP_H_INCLUDED
+#include<features.h>
+__BEGIN_DECLS
 
 #include <limits.h>
 #include "Heap.acsl"
@@ -16,6 +18,6 @@
 */
 void
 sort_heap(value_type* a, size_type n);
-
+__END_DECLS
 #endif /* SORT_HEAP_H_INCLUDED */
 

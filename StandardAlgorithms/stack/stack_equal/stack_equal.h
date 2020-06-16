@@ -1,7 +1,8 @@
 
 #ifndef STACK_EQUAL_H_INCLUDED
 #define STACK_EQUAL_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -13,6 +14,7 @@
 */
 bool
 stack_equal(const Stack* s, const Stack* t);
+__END_DECLS
 
 #endif /* STACK_EQUAL_H_INCLUDED */
 

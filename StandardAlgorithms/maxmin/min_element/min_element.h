@@ -1,7 +1,8 @@
 
 #ifndef MIN_ELEMENT_H_INCLUDED
 #define MIN_ELEMENT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "ArrayExtrema.acsl"
 
 /*@
@@ -26,6 +27,7 @@
 */
 size_type
 min_element(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* MIN_ELEMENT_H_INCLUDED */
 

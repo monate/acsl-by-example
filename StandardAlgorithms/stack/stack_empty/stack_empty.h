@@ -1,7 +1,8 @@
 
 #ifndef STACK_EMPTY_H_INCLUDED
 #define STACK_EMPTY_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -12,6 +13,7 @@
 */
 bool
 stack_empty(const Stack* s);
+__END_DECLS
 
 #endif /* STACK_EMPTY_H_INCLUDED */
 

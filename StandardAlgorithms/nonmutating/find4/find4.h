@@ -1,7 +1,8 @@
 
 #ifndef FIND4_H_INCLUDED
 #define FIND4_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "SomeNone.acsl"
 
 /*@
@@ -26,6 +27,7 @@
 */
 size_type
 find4(const value_type* a, size_type n, value_type v);
+__END_DECLS
 
 #endif /* FIND4_H_INCLUDED */
 

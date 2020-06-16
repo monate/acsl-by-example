@@ -1,7 +1,8 @@
 
 #ifndef SEARCH_H_INCLUDED
 #define SEARCH_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "HasSubRange.acsl"
 
 /*@
@@ -28,6 +29,7 @@
 size_type
 search(const value_type* a, size_type n,
        const value_type* b, size_type p);
+__END_DECLS
 
 #endif /* SEARCH_H_INCLUDED */
 

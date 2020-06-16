@@ -1,7 +1,8 @@
 
 #ifndef EQUAL2_H_INCLUDED
 #define EQUAL2_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -12,6 +13,7 @@
 */
 bool
 equal(const value_type* a, size_type n, const value_type* b);
+__END_DECLS
 
 #endif /* EQUAL2_H_INCLUDED */
 

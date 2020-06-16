@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cassert>
 
+#include "min_element.h"
 #include "minmax_element.h"
 
 int

@@ -1,7 +1,8 @@
 
 #ifndef MISMTACH_H_INCLUDED
 #define MISMTACH_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -27,6 +28,7 @@
 */
 size_type
 mismatch(const value_type* a, size_type n, const value_type* b);
+__END_DECLS
 
 #endif /* MISMTACH_H_INCLUDED */
 

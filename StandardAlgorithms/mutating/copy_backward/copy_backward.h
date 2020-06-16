@@ -1,7 +1,8 @@
 
 #ifndef COPYBACKWARD_H_INCLUDED
 #define COPYBACKWARD_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -13,6 +14,7 @@
 */
 void
 copy_backward(const value_type* a, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* COPYBACKWARD_H_INCLUDED */
 

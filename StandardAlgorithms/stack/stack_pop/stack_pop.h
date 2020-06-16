@@ -1,7 +1,8 @@
 
 #ifndef STACK_POP_H_INCLUDED
 #define STACK_POP_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -29,6 +30,7 @@
 */
 void
 stack_pop(Stack* s);
+__END_DECLS
 
 #endif /* STACK_POP_H_INCLUDED */
 

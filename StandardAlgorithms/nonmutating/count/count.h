@@ -1,7 +1,8 @@
 
 #ifndef COUNT_H_INCLUDED
 #define COUNT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Count.acsl"
 
 /*@
@@ -12,6 +13,7 @@
 */
 size_type
 count(const value_type* a, size_type n, value_type v);
+__END_DECLS
 
 #endif /*  COUNT_H_INCLUDED */
 

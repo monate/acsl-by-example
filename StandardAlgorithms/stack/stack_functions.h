@@ -1,7 +1,7 @@
 
 #ifndef STACK_FUNCTIONS_H_INCLUDED
 #define STACK_FUNCTIONS_H_INCLUDED
-
+__BEGIN_DECLS
 #include "stack.h"
 
 void        stack_init(Stack* s, value_type* a, size_type n);
@@ -19,6 +19,7 @@ value_type  stack_top(const Stack* s);
 void        stack_push(Stack* s, value_type v);
 
 void        stack_pop(Stack* s);
+__END_DECLS
 
 #endif /* STACK_FUNCTIONS_H_INCLUDED */
 

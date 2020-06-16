@@ -1,6 +1,8 @@
 
 #ifndef BINARY_SEARCH_H_INCLUDED
 #define BINARY_SEARCH_H_INCLUDED
+#include<features.h>
+__BEGIN_DECLS
 
 #include "Increasing.acsl"
 
@@ -12,6 +14,6 @@
 */
 bool
 binary_search(const value_type* a, size_type n, value_type val);
-
+__END_DECLS
 #endif /* BINARY_SEARCH_H_INCLUDED */
 

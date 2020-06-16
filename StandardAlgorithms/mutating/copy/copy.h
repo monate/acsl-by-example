@@ -1,7 +1,8 @@
 
 #ifndef COPY_H_INCLUDED
 #define COPY_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -13,6 +14,7 @@
 */
 void
 copy(const value_type* a, const size_type n, value_type* b);
+__END_DECLS
 
 #endif /* COPY_H_INCLUDED */
 

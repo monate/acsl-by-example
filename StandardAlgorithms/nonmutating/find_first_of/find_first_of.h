@@ -1,7 +1,8 @@
 
 #ifndef FIND_FIRST_OF_H_INCLUDED
 #define FIND_FIRST_OF_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "HasValueOf.acsl"
 
 /*@
@@ -28,5 +29,6 @@
 size_type
 find_first_of(const value_type* a, size_type m,
               const value_type* b, size_type n);
+__END_DECLS
 
 #endif /* FIND_FIRST_OF_H_INCLUDED */

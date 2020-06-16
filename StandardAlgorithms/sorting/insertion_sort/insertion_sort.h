@@ -1,7 +1,8 @@
 
 #ifndef INSERTION_SORT_H_INCLUDED
 #define INSERTION_SORT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "MultisetUnchanged.acsl"
 #include "Increasing.acsl"
 
@@ -13,6 +14,7 @@
 */
 void
 insertion_sort(value_type* a, size_type n);
+__END_DECLS
 
 #endif /* INSERTION_SORT_H_INCLUDED */
 

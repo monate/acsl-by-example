@@ -1,7 +1,8 @@
 
 #ifndef REVERSE_H_INCLUDED
 #define REVERSE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Reverse.acsl"
 
 /*@
@@ -11,6 +12,7 @@
 */
 void
 reverse(value_type* a, size_type n);
+__END_DECLS
 
 #endif  /* REVERSE_H_INCLUDED */
 

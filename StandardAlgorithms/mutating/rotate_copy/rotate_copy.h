@@ -1,7 +1,8 @@
 
 #ifndef ROTATE_COPY_H_INCLUDED
 #define ROTATE_COPY_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 #include "Unchanged.acsl"
 
@@ -17,6 +18,7 @@
 */
 void
 rotate_copy(const value_type* a, size_type m, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* ROTATE_COPY_H_INCLUDED */
 

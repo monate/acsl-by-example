@@ -1,7 +1,8 @@
 
 #ifndef REPLACE_COPY_H_INCLUDED
 #define REPLACE_COPY_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Replace.acsl"
 #include "Unchanged.acsl"
 
@@ -17,6 +18,7 @@
 size_type
 replace_copy(const value_type* a, size_type n, value_type* b,
              value_type v, value_type w);
+__END_DECLS
 
 #endif /* REPLACE_COPY_H_INCLUDED */
 

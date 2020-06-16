@@ -1,7 +1,8 @@
 
 #ifndef HEAP_AUX_H_INCLUDED
 #define HEAP_AUX_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "HeapBasics.acsl"
 
 /*@
@@ -15,6 +16,7 @@ heap_parent(size_type child)
   return (child - 1u) / 2u;
 }
 
+__END_DECLS
 
 #endif /* HEAP_AUX_H_INCLUDE */
 

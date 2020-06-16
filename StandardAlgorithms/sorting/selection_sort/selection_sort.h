@@ -1,7 +1,8 @@
 
 #ifndef SELECTION_SORT_H_INCLUDED
 #define SELECTION_SORT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "MultisetUnchanged.acsl"
 #include "Increasing.acsl"
 
@@ -13,6 +14,7 @@
 */
 void
 selection_sort(value_type* a, size_type n);
+__END_DECLS
 
 #endif /* SELECTION_SORT_H_INCLUDED */
 

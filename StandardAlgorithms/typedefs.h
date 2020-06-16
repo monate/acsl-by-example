@@ -3,12 +3,7 @@
 #define TYPEDEFS_H_INCLUDED
 
 #include <limits.h>
-
-#ifndef __cplusplus
-typedef int bool;
-#define false		((bool)0)
-#define true		((bool)1)
-#endif
+#include <stdbool.h>
 
 typedef int value_type;
 

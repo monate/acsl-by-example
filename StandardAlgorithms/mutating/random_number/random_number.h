@@ -1,7 +1,8 @@
 
 #ifndef RANDOM_NUMBER_H_INCLUDED
 #define RANDOM_NUMBER_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 
 /*@
@@ -21,6 +22,7 @@ random_number(unsigned short* state, size_type n);
 */
 void
 random_init(unsigned short* state);
+__END_DECLS
 
 #endif /* RANDOM_NUMBER_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef SWAP_RANGES_H_INCLUDED
 #define SWAP_RANGES_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -15,6 +16,7 @@
 */
 void
 swap_ranges(value_type* a, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* SWAP_RANGES_H_INCLUDED */
 

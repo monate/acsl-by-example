@@ -1,5 +1,5 @@
 
-export FRAMAC_SHARE:=$(shell frama-c -print-share-path)
+export FRAMAC_SHARE:=$(shell tis-kernel -print-share-path)
 
 export TIMEOUT   ?= 2
 export PROCESSES ?= 1

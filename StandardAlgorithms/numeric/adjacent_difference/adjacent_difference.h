@@ -1,7 +1,8 @@
 
 #ifndef ADJACENT_DIFFERENCE_H_INCLUDED
 #define ADJACENT_DIFFERENCE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "AdjacentDifference.acsl"
 
 /*@
@@ -16,6 +17,7 @@
 */
 size_type
 adjacent_difference(const value_type* a, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* ADJACENT_DIFFERENCE_H_INCLUDED */
 

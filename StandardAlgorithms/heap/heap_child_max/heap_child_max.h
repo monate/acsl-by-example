@@ -1,7 +1,8 @@
 
 #ifndef HEAP_CHILD_MAX_H_INCLUDED
 #define HEAP_CHILD_MAX_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Heap.acsl"
 
 /*@
@@ -35,6 +36,7 @@ heap_child_max(const value_type* a, size_type n, size_type parent)
     return n;
   }
 }
+__END_DECLS
 
 #endif /* HEAP_CHILD_MAX_H_INCLUDED */
 

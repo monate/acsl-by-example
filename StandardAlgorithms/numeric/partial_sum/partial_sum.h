@@ -1,7 +1,8 @@
 
 #ifndef PARTIAL_SUM_H_INCLUDED
 #define PARTIAL_SUM_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "PartialSum.acsl"
 
 /*@
@@ -16,6 +17,7 @@
 */
 size_type
 partial_sum(const value_type* a, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* PARTIAL_SUM_H_INCLUDED */
 

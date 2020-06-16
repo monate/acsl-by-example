@@ -1,7 +1,8 @@
 
 #ifndef MERGE_H_INCLUDED
 #define MERGE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "IncreasingLemmas.acsl"
 
 
@@ -22,6 +23,7 @@ merge(const value_type* a, size_type n,
       const value_type* b, size_type m,
       value_type* result);
 
+__END_DECLS
 
 #endif /* MERGE_H_INCLUDED */
 

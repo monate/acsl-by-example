@@ -1,7 +1,8 @@
 
 #ifndef REVERSE_COPY_H_INCLUDED
 #define REVERSE_COPY_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Reverse.acsl"
 #include "Unchanged.acsl"
 
@@ -15,5 +16,6 @@
 */
 void
 reverse_copy(const value_type* a, size_type n, value_type* b);
+__END_DECLS
 
 #endif /* REVERSE_COPY_H_INCLUDED */

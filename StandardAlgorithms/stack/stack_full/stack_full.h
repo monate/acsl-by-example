@@ -1,7 +1,8 @@
 
 #ifndef STACK_FULL_H_INCLUDED
 #define STACK_FULL_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
@@ -12,6 +13,7 @@
 */
 bool
 stack_full(const Stack* s);
+__END_DECLS
 
 #endif /* STACK_FULL_H_INCLUDED */
 

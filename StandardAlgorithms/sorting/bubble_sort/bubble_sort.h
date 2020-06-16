@@ -1,7 +1,8 @@
 
 #ifndef BUBBLESORT_H_INCLUDED
 #define BUBBLESORT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 #include "Increasing.acsl"
 #include "MultisetUnchanged.acsl"
@@ -14,5 +15,6 @@
  */
 void
 bubble_sort(value_type* a, size_type n);
+__END_DECLS
 
 #endif /* BUBBLESORT_H_INCLUDED */

@@ -1,7 +1,8 @@
 
 #ifndef ROTATE_H_INCLUDED
 #define ROTATE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "EqualRanges.acsl"
 
 /*@
@@ -14,6 +15,7 @@
 */
 size_type
 rotate(value_type* a, size_type m, size_type n);
+__END_DECLS
 
 #endif  /* ROTATE_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef ACCUMULATE_H_INCLUDED
 #define ACCUMULATE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Accumulate.acsl"
 
 /*@
@@ -12,6 +13,7 @@
 */
 value_type
 accumulate(const value_type* a, size_type n, value_type init);
+__END_DECLS
 
 #endif /* ACCUMULATE_H_INCLUDED */
 

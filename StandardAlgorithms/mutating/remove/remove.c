@@ -3,7 +3,7 @@
 #include "At.acsl"
 
 size_type
-remove(value_type* a, size_type n, value_type v)
+remove1(value_type* a, size_type n, value_type v)
 {
   size_type k = 0u;
 

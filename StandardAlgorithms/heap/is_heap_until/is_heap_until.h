@@ -1,7 +1,8 @@
 
 #ifndef IS_HEAP_UNTIL_H_INCLUDED
 #define IS_HEAP_UNTIL_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Heap.acsl"
 
 /*@
@@ -13,6 +14,7 @@
 */
 size_type
 is_heap_until(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* IS_HEAP_UNTIL_H_INCLUDED */
 

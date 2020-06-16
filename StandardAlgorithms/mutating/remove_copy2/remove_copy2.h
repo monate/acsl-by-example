@@ -1,7 +1,8 @@
 
 #ifndef REMOVE_COPY2_H_INCLUDED
 #define REMOVE_COPY2_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "SomeNone.acsl"
 #include "Unchanged.acsl"
 #include "CountNotEqual.acsl"
@@ -19,6 +20,7 @@
 */
 size_type
 remove_copy2(const value_type* a, size_type n, value_type* b, value_type v);
+__END_DECLS
 
 #endif /* REMOVE_COPY2_H_INCLUDED */
 

@@ -1,7 +1,8 @@
 
 #ifndef MAX_SEQ_H_INCLUDED
 #define MAX_SEQ_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "typedefs.h"
 
 /*@
@@ -13,5 +14,6 @@
 */
 value_type
 max_seq(const value_type* p, size_type n);
+__END_DECLS
 
 #endif /* MAX_SEQ_H_INCLUDED */

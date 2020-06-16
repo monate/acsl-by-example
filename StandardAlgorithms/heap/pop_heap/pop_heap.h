@@ -1,7 +1,8 @@
 
 #ifndef POP_HEAP_H_INCLUDED
 #define POP_HEAP_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Heap.acsl"
 #include "MultisetUnchanged.acsl"
 
@@ -17,6 +18,7 @@
 */
 void
 pop_heap(value_type* a, size_type n);
+__END_DECLS
 
 #endif /* POP_HEAP_H_INCLUDED */
 

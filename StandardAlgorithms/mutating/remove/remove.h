@@ -1,7 +1,8 @@
 
 #ifndef REMOVE_H_INCLUDED
 #define REMOVE_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "Remove.acsl"
 #include "SomeNone.acsl"
 
@@ -15,7 +16,8 @@
   ensures unchanged: Unchanged{Old,Here}(a, \result, n);
 */
 size_type
-remove(value_type* a, size_type n, value_type v);
+remove1(value_type* a, size_type n, value_type v);
+__END_DECLS
 
 #endif /* REMOVE_H_INCLUDED */
 

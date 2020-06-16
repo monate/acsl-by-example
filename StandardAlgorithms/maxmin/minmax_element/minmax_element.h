@@ -1,7 +1,8 @@
 
 #ifndef MINMAX_ELEMENT_H_INCLUDED
 #define MINMAX_ELEMENT_H_INCLUDED
-
+#include<features.h>
+__BEGIN_DECLS
 #include "SizeTypePairTrivial.acsl"
 #include "ArrayExtrema.acsl"
 
@@ -30,6 +31,7 @@
 */
 size_type_pair
 minmax_element(const value_type* a, size_type n);
+__END_DECLS
 
 #endif /* MINMAX_ELEMENT_H_INCLUDED */
 
