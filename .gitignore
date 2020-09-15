@@ -1,2 +1,7 @@
 *.o
 *.a
+tis_symbols.tbl
+*~
+*.json
+*.csv
+*.txt

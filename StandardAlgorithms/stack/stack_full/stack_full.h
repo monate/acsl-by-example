@@ -6,7 +6,7 @@ __BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
-    requires valid:    \valid(s) && StackInvariant(s);
+    requires valid:    \valid_read(s) && StackInvariant(s);
     assigns            \nothing;
     ensures  full:     \result == 1  <==>  StackFull(s);
     ensures  not_full: \result == 0  <==> !StackFull(s);

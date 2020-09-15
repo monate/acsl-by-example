@@ -6,8 +6,8 @@ __BEGIN_DECLS
 #include "Stack.acsl"
 
 /*@
-    requires valid:     \valid(s) && StackInvariant(s);
-    requires valid:     \valid(t) && StackInvariant(t);
+    requires valid:     \valid_read(s) && StackInvariant(s);
+    requires valid:     \valid_read(t) && StackInvariant(t);
     assigns             \nothing;
     ensures  equal:     \result == 1  <==>  StackEqual{Here,Here}(s, t);
     ensures  not_equal: \result == 0  <==> !StackEqual{Here,Here}(s, t);

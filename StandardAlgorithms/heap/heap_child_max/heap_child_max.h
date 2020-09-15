@@ -8,7 +8,7 @@ __BEGIN_DECLS
 /*@
    requires bound: 2 <= n;
    requires bound: 0 <= parent < n - 1;
-   requires valid: \valid(a + (0..n-1));
+   requires valid: \valid_read(a + (0..n-1));
    requires heap:  Heap(a, n);
    assigns         \nothing;
    ensures heap:   Heap(a, n);
